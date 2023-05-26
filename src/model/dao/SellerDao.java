@@ -12,6 +12,6 @@ public interface SellerDao {
 	void deleteById(Integer id);
 	//consulta no banco de dados com o id indicado
 	Seller findById(Integer id);
-	List<Seller> findaAll();
+	List<Seller> findAll();
 	List<Seller> findByDepartment(Department department);
 }
